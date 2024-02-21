@@ -69,7 +69,8 @@ body {
   }
 
   img {
-    width: 30px;
+    width: 555px;
+    height: 555px;
   }
 }
 
@@ -461,7 +462,9 @@ a:focus {
       position: relative;
 
       img {
-        width: 100%;
+        width: 555px;
+        height: 555px;
+        object-fit: cover;
       }
 
     }
