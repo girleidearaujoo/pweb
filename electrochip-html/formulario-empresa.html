@@ -81,32 +81,31 @@
   <!-- contact section -->
 
   <section class="contact_section layout_padding">
-   <div class="row">
-    <div class="col-md-6">
-      <form id="form">
-        <h2>Agendamentos de Serviços</h2>
-        <p>Para melhoria do nosso atendimento e noção da demanda dos nossos clientes.</p>
+    <form id="form-emp">
+      <h2>Agendamentos de Serviços</h2>
+      <p>Para melhoria do nosso atendimento e noção da demanda dos nossos clientes.</p>
+      <div class="form-group col-md-4">
+        <label for="formGroupExampleInput2">Escolha o Serviço:</label>
+        <select id="inputState" class="form-control" >
+          <option selected>Hotel</option>
+          <option>Babá</option>
+          <option>Petshop</option>
+          <option>Veterinários</option>
+        </select>
+
+        <label for="formGroupExampleInput2">Turno</label>
+        <p></p>
         <div class="form-group col-md-4">
-          <label for="formGroupExampleInput2">Escolha o Serviço:</label>
-          <select id="inputState" class="form-control">
-            <option selected>Hotel</option>
-            <option>Babá</option>
-            <option>Petshop</option>
-            <option>Veterinário</option>
-          </select>
-        <label for="formGroupExampleInput2">Escolha a data</label>
-        <input type="date" id="inputDate"/>
-        
-      </div>
-      <button>Pesquisar Serviços Disponíveis</button>
-      </form>
-  
+         <label> Manhã </label><input type="radio" name="rb" id=""> 
+          Tarde<input type="radio" name="rb1" id="">
+          Noite<input type="radio" name="rb2" id="">
+        </div>
+      <label for="formGroupExampleInput2">Escolha a data</label>
+      <input type="date" id="inputDate"/>
+      
     </div>
-    <div class="col-md-6" id="div">
-
-    </div>
-
-   </div>
+    <button>Regtistrar</button>
+    </form>
   </section>
 
   <!-- end contact section -->
@@ -205,7 +204,7 @@
   <script src="js/jquery-3.4.1.min.js"></script>
   <script src="js/bootstrap.js"></script>
   <script src="script.js"></script>
-  <script src="class.js"></script>
+
 </body>
 
 </html>
