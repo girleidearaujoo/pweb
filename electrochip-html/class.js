@@ -66,20 +66,11 @@ function desenharCards(div, empresas) {
     <h5 class="card-title">${empresa.nome}</h5>
     <h6 class="card-subtitle mb-2 text-muted">${empresa.horarios}</h6>
     <a href="#" class="card-link">Email</a>
-    <button class="" style="border: none;
-    display: inline-block;
-    background-color: #8c4b20;
-    color: #ffffff;
-    border-radius: 9px;" id="btnLS">Salvar</button>
-  </div>
 </div>
         `
     }
 
-    let btnLS =  document.getElementById('btnLS')
-    btnLS.addEventListener('click', () => {
-        localStorage.setItem()
-    })
+    
 }
 // Verificando empresas que atendem ao critério de ser veterinário no turno "9:00-18:00" e no dia "2024-03-06"
 let empresasAtendendoCritérios = verificarEmpresas("9:00-18:00", "2024-03-06");
